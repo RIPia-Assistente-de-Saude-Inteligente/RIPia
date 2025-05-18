@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>RIPia</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>RIPia, seu assistente médico</h1>
+        <h2>Nosso objetivo é fazer você descansar em paz!!</h2>
+        <div id="chat-box" class="chat-box"></div>
+        <div class="input-area">
+            <input type="text" id="user-input" placeholder="Digite sua mensagem..." autocomplete="off">
+            <button onclick="sendMessage()">Enviar</button>
+        </div>
+        <div id="loading" class="spinner" style="display:none;"></div>
+    </div>
+    <script src="{{ url_for('static', filename='ch_script.js') }}"></script>
+</body>
+</html>
