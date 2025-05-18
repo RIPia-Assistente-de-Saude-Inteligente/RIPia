@@ -10,13 +10,13 @@
 
 - Python (backend)
 - HTML (interface)
-- Modelo de linguagem: [Qwen2.5-0.5B](https://huggingface.co/Qwen/Qwen2.5-0.5B)
+- Modelo de linguagem: [Qwen2.5-0.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct)
 
 ---
 
 ## Sobre o Modelo
 
-Este projeto utiliza o modelo **Qwen2.5-0.5B**, um modelo de linguagem de código aberto fornecido pela equipe **Qwen** e hospedado na Hugging Face, porém, já em cache no repositório para facilitar o uso em ambiente de apresentação.
+Este projeto utiliza o modelo **Qwen2.5-0.5B**, um modelo de linguagem de código aberto fornecido pela equipe **Qwen** e hospedado na Hugging Face.
 
 ### Fonte oficial:
 - [Qwen2.5: A Party of Foundation Models](https://qwenlm.github.io/blog/qwen2.5/)
