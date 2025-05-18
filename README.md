@@ -24,6 +24,7 @@ Este projeto utiliza o modelo **Qwen2.5-0.5B**, um modelo de linguagem de códig
 
 ### Citações:
 
+```bibtex
 @misc{qwen2.5,
     title = {Qwen2.5: A Party of Foundation Models},
     url = {https://qwenlm.github.io/blog/qwen2.5/},
@@ -38,6 +39,8 @@ Este projeto utiliza o modelo **Qwen2.5-0.5B**, um modelo de linguagem de códig
     journal={arXiv preprint arXiv:2407.10671},
     year={2024}
 }
+
+```
 
 ---
 
