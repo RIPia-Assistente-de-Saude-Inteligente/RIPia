@@ -5,7 +5,7 @@ import torch
 app = Flask(__name__)
 
 # Carrega o modelo e o tokenizer na inicialização
-model_name = "./hub/models--Qwen--Qwen2.5-0.5B-Instruct/snapshots/7ae557604adf67be50417f59c2c2f167def9a775"
+model_name = "Qwen/Qwen2.5-0.5B-Instruct"
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
     torch_dtype=torch.float16,
