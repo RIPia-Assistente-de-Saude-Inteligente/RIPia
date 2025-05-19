@@ -24,6 +24,7 @@ Este projeto utiliza o modelo **Qwen2.5-0.5B-Instruct**, um modelo de linguagem 
 
 ### Descrição dos requisitos
 
+```bibtex
 python3 -m venv venv
 source venv/bin/activate
 
@@ -31,10 +32,13 @@ pip install flask
 pip install transformers
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 pip install accelerate
+```
 
 ### Executando o projeto
 
+```bibtex
 python app.py
+```
 
 ### Citações:
 
