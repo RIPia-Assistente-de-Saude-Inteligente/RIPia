@@ -22,6 +22,20 @@ Este projeto utiliza o modelo **Qwen2.5-0.5B-Instruct**, um modelo de linguagem 
 - [Qwen2.5: A Party of Foundation Models](https://qwenlm.github.io/blog/qwen2.5/)
 - [HuggingFace - Qwen2.5-0.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct)
 
+### Descrição dos requisitos
+
+python3 -m venv venv
+source venv/bin/activate
+
+pip install flask
+pip install transformers
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+pip install accelerate
+
+### Executando o projeto
+
+python app.py
+
 ### Citações:
 
 ```bibtex

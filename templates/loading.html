@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Carregando Modelo</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script>
+        // Atualiza a página dinamicamente para redirecionar quando o modelo estiver pronto
+        async function checkModelReady() {
+            const response = await fetch('/loading');
+            const data = await response.json();
+            if (data.model_ready) {
+                window.location.href = '/';
+            } else {
+                setTimeout(checkModelReady, 1000); // Verifica novamente após 1 segundo
+            }
+        }
+        window.onload = checkModelReady;
+    </script>
+</head>
+<body>
+    <h1>Carregando o modelo...</h1>
+</body>
+</html>
